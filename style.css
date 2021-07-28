@@ -1,5 +1,5 @@
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -7,7 +7,21 @@ h1 span.span-skipColor {
     color: #F4D03F;
 }
 
+.secondary-text {
+    color: #828382;
+    font-size: 20px;
+}
+
 .flexible-container {
     display: flex;
-    margin-bottom: 150px;
+    margin: 100px 82px 150px 76px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 2px;
+}
+
+.half-width img {
+    width: 80%;
 }
