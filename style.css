@@ -1,6 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background: #FFFFFF;
+}
+
 #main-heading {
     font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
+    font-weight: 400;
 }
 
 h1 span.span-skipColor {
@@ -9,8 +16,13 @@ h1 span.span-skipColor {
 
 .secondary-text {
     color: #828382;
-    font-size: 20px;
     margin-bottom: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: #828282;
 }
 
 .button-orderFood {
@@ -32,6 +44,10 @@ h1 span.span-skipColor {
     margin: 100px 82px 150px 76px;
 }
 
+.food flexible-container {
+    margin-left: 100px;
+}
+
 .half-width {
     width: 50%;
     padding: 2px;
@@ -39,6 +55,9 @@ h1 span.span-skipColor {
 
 .half-width img {
     width: 80%;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
+.aboutMe flexible-container {
+
+}
