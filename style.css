@@ -1,5 +1,5 @@
-h1 {
-    font-size: 50px;
+#main-heading {
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -10,6 +10,21 @@ h1 span.span-skipColor {
 .secondary-text {
     color: #828382;
     font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.button-orderFood {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100px;
+    padding: 20px 40px;
+    margin-top: 200px;
+    background-image: linear-gradient(orange, tomato);
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px
 }
 
 .flexible-container {
@@ -24,4 +39,5 @@ h1 span.span-skipColor {
 
 .half-width img {
     width: 80%;
+    margin-left: 50px;
 }
